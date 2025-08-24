@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhominy San | Linktree</title>
+    <!-- Favicon -->
+  <link rel="icon" href="DS_ico.ico" type="image/x-icon" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- Animação de fundo com pixels em movimento -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+    <!-- Fim da animação de fundo com pixels em movimento -->
+
+    <a id="profilePicture" href="#popup" class="profile-hover">
+  <img src="pfp.png" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+      <div class="popup">
+        <div class="popup-photo">
+          <a href="pfp.png" target="_blank">
+            <img src="pfp.png" alt="Profile Picture">
+          </a>
+        </div>
+        <div class="popup-quote">
+          🇧🇷 - Desenvolvedor de jogos
+          <br>
+          🇺🇸 - Game Developer
+        </div>
+        <a class="popup-close" onclick="history.back()">&times;</a>
+      </div>
+    </div>
+
+    <div id="userName" class="userName">
+      Dhominy San
+    </div>
+
+    <div id="links">
+      <a class="link" href="https://dhominy-portfolio.netlify.app" target="_blank">
+        <i class="fas fa-folder-open">&nbsp;</i>Portfolio
+      </a>
+      <a class="link" href="https://dhominykk.itch.io" target="_blank">
+        <i class="fab fa-itch-io">&nbsp;</i>Itch.io
+      </a>
+      <a class="link" href="https://www.linkedin.com/in/dhominyy" target="_blank">
+        <i class="fab fa-linkedin">&nbsp;</i>Linkedin
+      </a>
+      <a class="link" href="https://github.com/DhominySan" target="_blank">
+        <i class="fab fa-github">&nbsp;</i>Github
+      </a>
+      <a class="link" href="https://www.instagram.com/dhominy.san" target="_blank">
+        <i class="fab fa-instagram">&nbsp;</i>Instagram
+      </a>
+      <a class="link" href="https://wa.me/82998264214" target="_blank">
+        <i class="fab fa-whatsapp">&nbsp;</i>Whatsapp
+      </a>
+    </div>
+
+    <div id="hashtag">
+      Linktree by Dhominy San
+    </div>
+      <script>
+        // Fecha o popup ao clicar no fundo escuro
+        document.addEventListener('DOMContentLoaded', function() {
+          var overlay = document.getElementById('popup');
+          overlay.addEventListener('click', function(e) {
+            if (e.target === overlay) {
+              history.back();
+            }
+          });
+        });
+      </script>
+  </body>
+</html>
