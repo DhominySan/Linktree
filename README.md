@@ -8,7 +8,7 @@ Site simples para reunir todos os meus perfis e contatos em um só lugar.
 
 Este projeto é uma alternativa gratuita ao site Linktree, totalmente personalizável.
 
-- [Demo](https://dhominy-portfolio.netlify.app)
+- [Site no Ar](https://dhominy-linktree.netlify.app)
 
 ## 🚀 Como usar
 
